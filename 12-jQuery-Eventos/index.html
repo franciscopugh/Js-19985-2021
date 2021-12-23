@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form id="formAuto">
+            <div class="mb-3">
+              <label for="marca" class="form-label">Marca</label>
+              <input type="text" class="form-control" id="marca" name="marca" >
+            </div>
+            <div class="mb-3">
+                <label for="modelo" class="form-label">Modelo</label>
+                <input type="text" class="form-control" id="modelo" name="modelo" >
+              </div>
+              <div class="mb-3">
+                <label for="año" class="form-label">Año</label>
+                <input type="number" class="form-control" id="año" name="año" >
+              </div>
+              <div class="mb-3">
+                <label for="precio" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="precio" name="precio" >
+              </div>
+            <button type="submit" class="btn btn-primary">Cargar Auto</button><br><br>
+          </form>
+    </div>
+
+    <button class = "btn btn-dark" id="boton1">Mostrar Autos</button><br><br>
+    <div id="divAutos"></div>
+
+    <input type="text" id="inputId">
+    <button id="botonBoton">X</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
