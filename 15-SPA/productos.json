@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ventilador",
+        "marca": "Liliana",
+        "precio": 5800,
+        "color": "Negro",
+        "stock": 30,
+        "img": "ventilador-liliana.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Aire acondicionado",
+        "marca": "Hyundai",
+        "precio": 54000,
+        "color": "Blanco",
+        "stock": 25,
+        "img": "aire-acondicionado.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "CoderBike",
+        "marca": "Coder",
+        "precio": 30000,
+        "color": "Negro",
+        "stock": 15,
+        "img": "coder-bike.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Manguera",
+        "marca": "Manguerin",
+        "precio": 1200,
+        "color": "Verde",
+        "stock": 40,
+        "img": "manguera.png"
+    }
+]
